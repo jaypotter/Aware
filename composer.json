@@ -1,16 +1,11 @@
 {
     "name": "potter/aware",
-    "description": "PHP Aware Interface",
-    "type": "library",
+    "description": "PHP Aware Implementation",
+    "type": "metapackage",
     "require": {
         "php": "^8.3"
     },
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Potter\\Aware\\": "src/Potter/Aware/"
-        }
-    },
     "authors": [
         {
             "name": "Jay Potter",
