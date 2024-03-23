@@ -3,7 +3,8 @@
     "description": "PHP Aware Implementation",
     "type": "metapackage",
     "require": {
-        "php": "^8.3"
+        "php": "^8.3",
+        "potter/aware-interface": "dev-main"
     },
     "license": "MIT",
     "authors": [
