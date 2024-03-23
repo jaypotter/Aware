@@ -8,6 +8,6 @@ trait AwareTrait
 {
     public function has(string $id): bool
     {
-        return property_exists($this, $id);
+        return property_exists($this, $id) && isset($this->$id);
     }
 }
