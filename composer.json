@@ -5,7 +5,7 @@
     "require": {
         "php": "^8.3",
         "potter/aware-interface": "dev-main",
-        "potter/aware-trait": "dev-main"
+        "potter/aware-traits": "dev-main"
     },
     "license": "MIT",
     "authors": [
