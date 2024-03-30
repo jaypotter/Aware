@@ -4,13 +4,15 @@
     "type": "metapackage",
     "require": {
         "php": "^8.3",
-        "potter/aware-interface": "dev-main",
+        "potter/aware-interfaces": "dev-main",
         "potter/aware-traits": "dev-main"
     },
     "suggest": {
         "potter/container-aware": "dev-main",
         "potter/logger-aware": "dev-main",
-        "potter/session-aware": "dev-main"
+        "potter/session-aware": "dev-main",
+        "potter/components": "dev-main",
+        "potter/framework": "dev-main"
     },
     "license": "MIT",
     "authors": [
