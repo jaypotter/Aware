@@ -7,6 +7,11 @@
         "potter/aware-interface": "dev-main",
         "potter/aware-traits": "dev-main"
     },
+    "suggest": {
+        "potter/container-aware": "dev-main",
+        "potter/logger-aware": "dev-main",
+        "potter/session-aware": "dev-main"
+    },
     "license": "MIT",
     "authors": [
         {
