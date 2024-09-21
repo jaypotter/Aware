@@ -23,7 +23,7 @@ trait AwareTrait
     
     final public function has(string $var): bool
     {
-        return property_exists($this, $var) && isset($this->$var);
+        return property_exists($this, $var) && isset($this->$var) && (!is_array($this->$var) || empty($this->$var));
     }
     
     final protected function set(string $var, mixed $val): mixed
